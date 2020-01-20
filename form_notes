@@ -1,0 +1,9 @@
+Requirements-
+Firstname
+LastName
+^ Minimum characters, Upper-case
+Password
+^ Minimum characters, Special Character
+Email
+^ Valid Email
+City/town?
