@@ -1,0 +1,147 @@
+body {
+    margin: auto 0;
+}
+
+.zone {
+    display:grid;
+    color:#FFF;
+    font-size:2em;
+    border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+}
+
+.zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+/* Nav Bar */
+
+.main-nav {
+    display: flex;
+    list-style: none;
+     font-size: 0.9em;
+    margin: 0;
+    background-color: #000000;
+    height: 55px;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        padding: 0;
+    }
+}
+
+.push {
+    display: flex;
+    margin-left: auto; 
+}
+
+li {
+    padding: 20px;
+}
+
+a {
+    color: #f5f5f6;
+    text-decoration: none;
+}
+
+/* Cover */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+    background-color: #000000;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    background-color: #000000
+}
+
+.cover {
+    width: 30rem;
+}
+
+.container > img {
+    width: 27%;
+}
+
+
+/* Grid */
+
+.square {
+    float:left;
+    position: relative;
+    width: 30%;
+    padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
+    margin:1.66%;
+    background-color:#1E1E1E;
+    overflow:hidden;
+}
+
+.content {
+    position:absolute;
+    height:90%; /* = 100% - 2*5% padding */
+    width:90%; /* = 100% - 2*5% padding */
+    padding:5%;
+    background-color: #000000;
+    
+}
+.table{
+    display:table;
+    width:100%;
+    height:100%;
+}
+.table-cell{
+    display:table-cell;
+    vertical-align:middle;
+}
+
+/*  For responsive images */
+
+.content .rs{
+    width:auto;
+    height:auto;
+    max-height:90%;
+    max-width:100%;
+}
+
+/*  For responsive images as background */
+
+.bg {
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:contain; /* you change this to "contain" if you don't want the images to be cropped */
+    color:#fff;
+}
+
+
+/* Images */
+
+.img1 {
+    background-image: url("./images/kingned2.jpg");
+}
+.img2 {
+    background-image: url("./images/blackmanwhoinventedscience.jpg");
+}
+.img3 {
+    background-image: url("./images/kingbeeduo1.jpg");
+}
+.img4 {
+    background-image: url("./images/kingned1.jpg");
+}
+.img5 {
+    background-image: url("./images/kingjohnno1.jpg");
+}
+.img6 {
+    background-image: url("./images/kingned4.jpg");
+}
